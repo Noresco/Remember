@@ -1,0 +1,9 @@
+# run: conda env create --file environment.yml
+name: compendium
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - pygame>=2.0
